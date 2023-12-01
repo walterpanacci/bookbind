@@ -232,6 +232,7 @@ body {
 
 .how-it-works {
   background-color: #55809a;
+  width: 100%;
 }
 
 .header--1,
@@ -936,4 +937,10 @@ footer li:nth-child(1) {
 .mail-me:hover,
 .mail-me:active {
   color: #041621;
+}
+
+@media (max-width: 106em) {
+  .hero {
+    font-size: 10em;
+  }
 }
