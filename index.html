@@ -11,11 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    
+    <meta name="description" content="BookBind is a book delivery subscription service that brings your favorite genres to your home every month!">
+    <link rel="icon" href="img/favicon-512.png">
+    <link rel="apple-touch-icon" href="img/favicon-180.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css">
     <script defer src="script.js"></script>
-    <title>BookBind</title>
+    <title>BookBind &mdash; books at your door every month!</title>
   </head>
   <body>
   <main>
@@ -51,22 +54,25 @@
         <p class="how-it-works-text">Enter the world of exciting literary adventure with our exclusive book subscription service! Each month, we offer you the opportunity to choose a book from a wide selection of genres: from adventure to contemporary fiction, from nonfiction to science fiction and much more.<br>
         Forget the endless search in the bookshop: thanks to us, you will save precious time, avoid queues and the stress of choosing. With the convenience of home delivery, each book becomes a unique and surprising experience.</p>
       </div>
-    <div class="how-it-works-image--1" role="img" aria-label="Woman in a library"></div>
-    <div class="how-it-works-image--2" role="img" aria-label="Young man reading a book"></div>
+     <!--<div class="how-it-works-image--1" role="img" aria-label="Woman in a library"></div>-->
+     <img class="how-it-works-image--1" src="img/z1--query.png" alt="Woman in a library">
+    <!--<div class="how-it-works-image--2" role="img" aria-label="Young man reading a book"></div>-->
+    <img class="how-it-works-image--2" src="img/z2--query.png" alt="Young man reading a book">
         <div class="text-box box--2">
           
           <h1 class="how-it-works-header header--2">Whether you're an avid reader or want to explore new genres, there's a subscription plan that's perfect for you.</h1>
-          <p class="how-it-works-text">We offer flexible subscription plans that fit your reading style. Our service allows you to choose between different subscription options. If you want to enjoy each page calmly, our <a href="#" class="link-plan">'Serial reader'</a> plan guarantees you a literary surprise every thirty days. For those hungry for stories, the <a href="#" class="link-plan">'Bibliophile'</a> plan offers a double dose of adventure to experience. And for true book lovers, the <a href="#" class="link-plan"></a>'Bibliomaniac'</a> plan ensures you have a constant flow of new stories to explore.</p>
+          <p class="how-it-works-text">We offer flexible subscription plans that fit your reading style. Our service allows you to choose between different subscription options. If you want to enjoy each page calmly, our <a href="#plans" class="link-plan">'Serial reader'</a> plan guarantees you a literary surprise every thirty days. For those hungry for stories, the <a href="#plans" class="link-plan">'Bibliophile'</a> plan offers a double dose of adventure to experience. And for true book lovers, the <a href="#plans" class="link-plan"></a>'Bibliomaniac'</a> plan ensures you have a constant flow of new stories to explore.</p>
         </div>
         <div class="text-box box--3">
         <h1 class="how-it-works-header header--3">Alone you read books, but together you share the magic of stories.</h1>
         <p class="how-it-works-text">Reading is a precious experience that unites generations.
         BookBind &reg; is perfect for the whole family!<br> 
-        <!--With our vast selection of titles suitable for all ages and interests, each subscription becomes a shared journey through enchanted worlds and extraordinary stories.--> With a single subscription, you'll have access to a variety of books designed to engage every member of the family: from colorful children's stories to engaging fiction (and <a href="#" class="link-genres">more!</a>) for adults. <!--Every month, you will receive a selection of books that will please adults and children, allowing you to share the magic of reading together.--><br>
+        <!--With our vast selection of titles suitable for all ages and interests, each subscription becomes a shared journey through enchanted worlds and extraordinary stories.--> With a single subscription, you'll have access to a variety of books designed to engage every member of the family: from colorful children's stories to engaging fiction (and <a href="#genres" class="link-genres">more!</a>) for adults. <!--Every month, you will receive a selection of books that will please adults and children, allowing you to share the magic of reading together.--><br>
         One subscription, a thousand emotions: choose our offer and treat yourself to the joy of reading and sharing extraordinary stories, all together
         </p>
       </div>
-    <div class="how-it-works-image--3" role="img" aria-label="Mother reading with her son"></div>
+    <!--<div class="how-it-works-image--3" role="img" aria-label="Mother reading with her son"></div>-->
+    <img class="how-it-works-image--3" src="img/z3--query.png" alt="A mother reading with her son">
       
     </section>
     <section id="genres">
@@ -75,47 +81,47 @@
         <button class="btn--left">&larr;</button>
         <button class="btn--right">&rarr;</button>
         <div class="slide slide--0" data-number="0">
-          <div class="slide-text"><h2 class="slide-header">Contemporary Fiction</h2>
+          <div class="slide-text text--0"><h2 class="slide-header header--0">Contemporary Fiction</h2>
         <p class="slide-p">Discover the most powerful voices of our time! Get lost in the pages of authors who are shaping the modern literary landscape: from the narrative mastery of <span class="author">Jonathan Franzen</span> and <span class="author">Chimamanda Ngozi Adichie</span>, to the compelling plots of <span class="author">Donna Tartt</span> and <span class="author">Richard Powers</span>. Enter the world of contemporary fiction and be enchanted by the stories that define our present.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--1" data-number="1">
-          <div class="slide-text"><h2 class="slide-header">Classic literature</h2>
+          <div class="slide-text text--1"><h2 class="slide-header header--1">Classic literature</h2>
         <p class="slide-p">From timeless masterpieces to iconic works, our collection will take you on exciting journeys across eras and cultures. From <span class="author">F. Scott Fitzgerald</span> to <span class="author">Lev Tolstoy</span>, from <span class="author">Charles Dickens</span> to <span class="author">Jane Austen</span>, we have a vast selection of the greatest authors of all time. these classics are the fabric of human culture. By reading them, you will immerse yourself in ethical debates, profound reflections and unforgettable adventures.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--2" data-number="2">
-          <div class="slide-text"><h2 class="slide-header">Romance</h2>
+          <div class="slide-text text--2"><h2 class="slide-header header--2">Romance</h2>
         <p class="slide-p">Enter stories that make your heart beat and captivate you from the first page. Our romance book series takes you on a journey through the power of love, friendship, and deep emotions. From first loves to mature loves, explore the vast panorama of human emotions through the pages of our sentimental books. Through the pages of authors such as <span class="author">Nicholas Sparks</span> and <span class="author">Jojo Moyes</span>, discover the power of love that transforms lives and enchants readers!</p> </div>
         <div class="slide-img"></div> </div>
-        <div class="slide slide--3" data-number="3">
-          <div class="slide-text"><h2 class="slide-header">Fantasy</h2>
+        <div class="slide slide--3 " data-number="3">
+          <div class="slide-text text--3"><h2 class="slide-header header--3">Fantasy</h2>
         <p class="slide-p">Enter a universe of magic, adventure and mystery with our collection of fantasy books, starring <span class="author">George R.R. Martin</span>, <span class="author">J.K. Rowling</span>, <span class="author">J.R.R. Tolkien</span> and mony more. From epic battles to journeys through enchanted lands, from dragon lands to elven cities, from majestic dragons to cunning goblins, these books will take you to enchanted and adventurous places. From epic fantasy to timeless tales of magic, be transported on extraordinary journeys that challenge the imagination.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--4" data-number="4">
-          <div class="slide-text"><h2 class="slide-header">Mystery</h2>
+          <div class="slide-text text--4"><h2 class="slide-header header--4">Mystery</h2>
         <p class="slide-p">Enter the world of intrigue and suspense, from unsolved puzzles to unexpected twists, each book is a journey into the heart of the investigation. From <span class="author">Agatha Christie</span> to <span class="author">Arthur Conan Doyle</span>, from <span class="author">Gillian Flynn</span> to <span class="author">Raymond Chandler</span>, every story is a guarantee of engaging suspense. Guess the murderer, discover the deception or decipher the enigma together with the protagonists, in an engaging game of deductions.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--5" data-number="5">
-          <div class="slide-text"><h2 class="slide-header">Science fiction</h2>
+          <div class="slide-text text--5"><h2 class="slide-header header--5">Science fiction</h2>
         <p class="slide-p">Get ready to travel beyond the boundaries of time and space! From remote galaxies to dystopian futures, each book is an immersion in alternative worlds and surprising technologies. With authors such as <span class="author">Isaac Asimov</span>, <span class="author">Philip K. Dick</span>, <span class="author">Ursula K. Le Guin</span>, and <span class="author">Arthur C. Clarke</span>, travel to unknown planets, explore alien civilizations, and experience new frontiers of technology and society. From perfect futuristic societies to apocalyptic futures, each story offers a unique perspective on the fate of humanity.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--6" data-number="6">
-          <div class="slide-text"><h2 class="slide-header">Horror</h2>
+          <div class="slide-text text--6"><h2 class="slide-header header--6">Horror</h2>
         <p class="slide-p">Step into the darkness with our collection of horror books. From knocks on the door at night to sinister presences, each book is a journey into the unknown, ready to make your skin crawl. From <span class="author">Stephen King</span> to <span class="author">H.P. Lovecraft</span>, from <span class="author">Edgar Allan Poe</span> to <span class="author">Shirley Jackson</span>, each book is a descent into the darkest recesses of the mind. Spooky creatures, eerie ghosts and monsters of the darkness, these novels will take you to disturbing worlds ready to test your courage</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--7" data-number="7">
-          <div class="slide-text"><h2 class="slide-header">Children</h2>
+          <div class="slide-text text--7"><h2 class="slide-header header--7">Children</h2>
         <p class="slide-p">Give your little readers a passport to the imagination! each book is an invitation to explore, learn and enjoy, featuring authors such as <span class="author">Roald Dahl</span>, <span class="author">Dr. Seuss</span> and <span class="author">Enid Blyton</span>. Engaging stories that teach important values: friendship, courage and acceptance of differences. Children's books are a treasure that stimulates creativity and a love of reading from an early age.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--8" data-number="8">
-          <div class="slide-text"><h2 class="slide-header">Theatre</h2>
+          <div class="slide-text text--8"><h2 class="slide-header header--8">Theatre</h2>
         <p class="slide-p">From classic drama to brilliant comedies, each book is a window into emotion and the power of spoken words. <span class="author">William Shakespeare</span>, <span class="author">Anton Chekhov</span>, <span class="author">Tennessee Williams</span>, <span class="author">Oscar Wilde</span>: immerse yourself in vibrant dialogues and unforgettable monologues that bring the stage right into your hands. These books are a treasure for those who love the art of acting and the emotions experienced through words.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--9" data-number="9">
-          <div class="slide-text"><h2 class="slide-header">Poetry</h2>
+          <div class="slide-text text--9"><h2 class="slide-header header--9">Poetry</h2>
         <p class="slide-p">Tune into the melodies of the words with the verses of <span class="author">Emily Dickinson</span>, <span class="author">Pablo Neruda</span>, <span class="author">Maya Angelou</span>, <span class="author">Walt Whitman</span> and many more. Each line contains the beauty and depth of emotion in enchanting verses. Poets' words can be a refuge, a guide, or a celebration of life's joys and struggles. Treat yourself to a journey into the infinity of emotions and the beauty of words.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="slide slide--10" data-number="10">
-          <div class="slide-text"><h2 class="slide-header">Graphic novels</h2>
+          <div class="slide-text text--10"><h2 class="slide-header header--10">Graphic novels</h2>
         <p class="slide-p"><span class="author">Stan Lee</span>, <span class="author">Alan Moore</span>, <span class="author">Frank Miller</span>, <span class="author">Neil Gaiman</span>, just to name a few, will open your mind with their detailed drawings and breathtaking art, in an explosion of creativity and imagination. From legendary superheroes to intimate and complex stories, the world of graphic novels offers endless, colorful adventures to experience page after page.</p> </div>
         <div class="slide-img"></div> </div>
         <div class="dot-container">
@@ -172,7 +178,7 @@
         <input type="email" class="input-text" id="email" placeholder="marcel@recherche.com" required>
         <div class="radio-box grid--3-cols" >
           <legend class="radio-legend">Choose your plan:</legend>
-          <div><label for="serial">Serial reader</label>
+          <div><label for="serial">Serial<br class="new-line hidden"> reader</label>
           <input type="radio" name="plan" value="serial" id="serial" required></div>
           <div><label for="bibliophile">Bibliophile</label>
           <input type="radio" name="plan" value="bibliophile" id="bibliophile" required></div>
