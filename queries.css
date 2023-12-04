@@ -342,6 +342,14 @@
     width: 80%;
   }
 
+  .input-text {
+    min-width: 15.4rem;
+  }
+
+  .genres-button {
+    min-width: 7rem;
+  }
+
   .new-line {
     display: block;
   }
