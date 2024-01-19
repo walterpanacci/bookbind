@@ -84,7 +84,7 @@ observer3.observe(howToImg3);
 
 /* Slider */
 
-console.log(slides);
+//console.log(slides);
 
 const goToSlide = function (n) {
   slides.forEach(
@@ -173,7 +173,7 @@ allLinks.forEach((link) =>
   link.addEventListener("click", function (e) {
     e.preventDefault();
     const href = link.getAttribute("href");
-    console.log(href);
+    //console.log(href);
     if (href === "#") window.scrollTo({ top: 0, behavior: "smooth" });
     if (href !== "#") {
       const goTo = document.querySelector(href);
